@@ -1,0 +1,62 @@
+$danger : #d6373b ;
+
+
+
+.nav-link:hover {
+  color: #d6373b !important;
+}
+
+// #home{
+//   // background-image: linear-gradient(to top, #ffffff, #ecd0f1, #f09ac7, #ef6082, #d62828);
+//   // background-image: linear-gradient(to bottom, #9d0208, #a60107, #b00106, #b90005, #c30003, #d32424, #e13b3f, #ed5058, #f77b8c, #f9a4b8, #f7ccdc, #f5f3f4);
+// }
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ }
+
+ 
+
+
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+};
+
+html,body
+{
+    width: 100%;
+    
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden !important; 
+}
+
+.carousel .item{
+    height: 200px;
+}
+.item img {
+  position: absolute;
+  object-fit:cover;
+  top: 0;
+  left: 0;
+  min-height: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .mm {
+    width:300px;
+    height: 200px;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
